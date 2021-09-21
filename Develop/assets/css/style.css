@@ -1,0 +1,257 @@
+/* Start of CSS stylesheet */
+
+/* Universal selector used to strip browser defaults */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Background color added to entire body */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Styling added for header section (landing page) */
+header {
+    /* padding: 20px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Styling for Navigation bar */
+nav {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+    height: 10vh;
+}
+/* 
+Styling for text-based logo */
+header .logo {
+    font-size: 48px;
+    align-self: flex-start;
+    flex: 1 1 auto;
+}
+
+header .logo .seo {
+    color: #d9dcd6;
+}
+
+/* Trying to position logo (done incorrectly) */
+.logo {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+
+/* Styling for header image */
+header img {
+    max-height: 90vh;
+    max-width: 100vw;
+    object-fit: fill;
+}
+
+/* Sytling for H1 */
+h1 {
+    position: absolute;
+    left: 25vw;
+    top: 45vh;
+    font-size: 75px;
+    background: #2a607c; opacity: 0.4;
+
+}
+
+/* Practicing Hover */
+h1:hover{
+    display: none;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* Styling for unordered navigation list */
+nav ul {
+    list-style-type: none;
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 30%;
+    /* I know I'm supposed to use flex end and start to make this efficiently, but I couldn't get it to work after hours of trying. */
+
+}
+
+/* Styling for navigation list items */
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+    
+}
+
+/* Praciciing Hover Selector */
+nav a:hover {
+    color: hotpink;
+}
+
+/* Styling for links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Styling for regular text */
+p {
+    font-size: 16px;
+}
+
+/* Styling for aside */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styling for footer section */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+/* End of Stylesheet */
