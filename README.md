@@ -9,5 +9,7 @@ Contents of this folder are:
 5) These files are all hosted on a repository and the finished assignment can be accessed directly at "https://aarkaiser.github.io/Homework/assignmentOne/Develop/" on  a browswer.
 6) The Github repo for the assignment is available at "https://github.com/AarKaiser/Homework/tree/main/assignmentOne"
 
+[Image Should've Been Here]
+
 You do not need to read this README to access this assignment.
 
