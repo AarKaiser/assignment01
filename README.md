@@ -7,7 +7,7 @@ Contents of this folder are:
 3) An image of a mockup of the finished assignment tited "01-html-css-git-homework-demo.png" and located in the "Assets" folder.
 4) A "Develop" folder which contains the assignment, which is title "index.html" and it's associated "assets" folder.
 5) These files are all hosted on a repository and the finished assignment can be accessed directly at "https://aarkaiser.github.io/Homework/assignmentOne/Develop/" on  a browswer.
-6) The Github repo for the assignment is available at "https://github.com/AarKaiser/Homework/tree/main/assignmentOne"
+6) The Github repo for the assignment is available at "https://github.com/AarKaiser/assignment01"
 
 [Image Should've Been Here]
 
