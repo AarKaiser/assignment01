@@ -9,11 +9,15 @@ Contents of this folder are:
 5) These files are all hosted on a repository and the finished assignment can be accessed directly at "https://aarkaiser.github.io/code_refactor/Develop/" on  a browswer.
 6) The Github repo for the assignment is available at "https://github.com/AarKaiser/code_refactor"
 
-<img width="1437" alt="Screen Shot 2021-09-22 at 11 51 12 AM" src="https://user-images.githubusercontent.com/87316518/134378048-2b07fc18-4233-47d7-b337-7ce445d13468.png">
-
 Technologies Used:
 
 1. HTML
 2. CSS
+
+Website Mockup:
+
+<img width="1437" alt="Screen Shot 2021-09-22 at 11 51 12 AM" src="https://user-images.githubusercontent.com/87316518/134378048-2b07fc18-4233-47d7-b337-7ce445d13468.png">
+
+
 
 You do not need to read this README to access this assignment.
