@@ -11,4 +11,9 @@ Contents of this folder are:
 
 <img width="1437" alt="Screen Shot 2021-09-22 at 11 51 12 AM" src="https://user-images.githubusercontent.com/87316518/134378048-2b07fc18-4233-47d7-b337-7ce445d13468.png">
 
+Technologies Used:
+
+1. HTML
+2. CSS
+
 You do not need to read this README to access this assignment.
